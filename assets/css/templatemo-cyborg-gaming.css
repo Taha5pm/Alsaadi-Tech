@@ -41,6 +41,13 @@ figure, header, nav, section, article, aside, footer, figcaption {
   outline: 0;
 }
 
+.old-button {
+  border-color: #a56fe5;
+}
+.old-button a{
+  color: black;
+}
+
 .clearfix:after {
   content: ".";
   display: block;
@@ -152,8 +159,7 @@ p {
 }
 
 .templatemo-item {
-	max-width: 80px; 
-	border-radius: 23px;
+	max-width: 60px;
 }
 
 .main-button a {
@@ -907,7 +913,7 @@ Gaming Library Style
 
 .gaming-library .item ul li {
   display: inline-block;
-  width: 17%;
+  width: 25%;
 }
 
 .gaming-library .item ul li:first-child {
@@ -917,6 +923,10 @@ Gaming Library Style
 .gaming-library .item ul li:last-child {
   width: 15%;
   text-align: right;
+  float: right;
+}
+.mtt-5{
+  margin-top: -10%;
 }
 
 .gaming-library .item ul li h4 {
