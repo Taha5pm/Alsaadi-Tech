@@ -1743,3 +1743,118 @@ body {
     width: 16%;
   }
 }
+
+
+.icons {
+  display: inline-block;
+  height: 100%;
+  max-width:500px;
+  position: relative;
+  vertical-align: top;
+}
+.icon-container {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: floating;
+  animation-name: floating;
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  background-color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  box-shadow: 0 5px 40px 0 rgba(23, 28, 33, 0.13),
+    0 20px 13px 0 rgba(23, 28, 33, 0.05);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  opacity: 1;
+  -webkit-transition: margin 1s cubic-bezier(0.2, 0.6, 0.3, 1), opacity 2s ease;
+  transition: margin 1s cubic-bezier(0.2, 0.6, 0.3, 1), opacity 2s ease;
+  animation-duration: 4s;
+  height: 144px;
+  margin-left: 76px;
+  margin-top: -25px;
+  position: absolute;
+  width: 144px;
+}
+
+@keyframes floating {
+  0% {
+    -webkit-transform: translateY(8px) rotate3d(0, 0, 1, 3deg);
+    transform: translateY(8px) rotate3d(0, 0, 1, 3deg);
+  }
+
+  100% {
+    -webkit-transform: translateY(-8px) rotate3d(0, 0, 1, 0deg);
+    transform: translateY(-8px) rotate3d(0, 0, 1, 0deg);
+  }
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+
+.tech_logo {
+  -webkit-animation-duration: 2.0s;
+  animation-duration: 2.0s;
+  height: 75px;
+/*   margin-left: 76px; */
+  margin-left: 20%;
+  margin-top: 20px;
+  position: relative;
+  width: 75px;
+}
+
+.custom-heading{
+  margin-top: 5%;
+  margin-bottom: -2%;
+}
+.cus-1{
+  margin-left: 4%;
+}
+.cus--1{
+/*   margin-right: 4%; */
+}
+.cus-2{
+  width: 85px;
+  height: 85px;
+}
+.cus-3{
+  width: 50px;
+  height: 50px;
+}
+.cus-delay-1{
+  -webkit-animation-delay: -2.2s;
+  animation-delay: -2.2s;
+}
+.cus-delay-2{
+  -webkit-animation-delay: -2.0s;
+  animation-delay: -2.0s;
+}
+.cus-delay-3{
+  -webkit-animation-delay: -1.5s;
+  animation-delay: -1.5s;
+}
+.cus-delay-4{
+  -webkit-animation-delay: -1s;
+  animation-delay: -1s;
+}
