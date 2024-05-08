@@ -1831,9 +1831,6 @@ body {
 .cus-1{
   margin-left: 4%;
 }
-.cus--1{
-/*   margin-right: 4%; */
-}
 .cus-2{
   width: 85px;
   height: 85px;
@@ -1857,4 +1854,10 @@ body {
 .cus-delay-4{
   -webkit-animation-delay: -1s;
   animation-delay: -1s;
+}
+
+@media (max-width: 768px){
+  .tech_logo{
+    margin-left: 1%;
+  }
 }
