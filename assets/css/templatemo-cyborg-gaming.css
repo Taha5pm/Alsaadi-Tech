@@ -1653,7 +1653,7 @@ body {
 
 @media (max-width: 767px) {
   body .page-content {
-    padding: 0px 30px;
+    padding: 30px 30px;
   }
   .main-banner {
     text-align: center;
@@ -1855,9 +1855,24 @@ body {
   -webkit-animation-delay: -1s;
   animation-delay: -1s;
 }
+.header-logo img{
+  width: 10%;
+}
 
 @media (max-width: 768px){
   .tech_logo{
     margin-left: 1%;
+  }
+  .custom-heading {
+    margin-top: 10%;
+    margin-bottom: -8%;
+  }
+  .header-logo img{
+    width: 20%;
+  }
+}
+@media (min-width: 576px){
+  .most-popular .item img{
+    height: 190px;
   }
 }
