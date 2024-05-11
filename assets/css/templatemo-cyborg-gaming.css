@@ -1859,6 +1859,32 @@ body {
   width: 10%;
 }
 
+@media (max-width: 992px) {
+  .gaming-library .item ul li:first-child {
+    width: 100% !important;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  .gaming-library .item ul li:first-child .templatemo-item{
+    max-width: 80px !important;
+  }
+  .gaming-library .item ul li{
+    width: 30% !important;
+  }
+  .gaming-library .item ul li:last-child {
+    width: 40% !important;
+    margin-top: -2%;
+    text-align: right;
+  }
+  .gaming-library .item ul li:last-child .main-border-button a {
+    font-size: 8px;
+    padding: 12px 20px;
+  }
+  .gaming-library .item ul li h4 {
+    font-size: 12px;
+  }
+}
+
 @media (max-width: 768px){
   .tech_logo{
     margin-left: 1%;
@@ -1869,6 +1895,20 @@ body {
   }
   .header-logo img{
     width: 20%;
+  }
+  .gaming-library .item ul li{
+    width: 30% !important;
+  }
+  .gaming-library .item ul li:last-child {
+    width: 40% !important;
+    margin-top: -5%;
+  }
+  .gaming-library .item ul li:last-child .main-border-button a {
+    font-size: 10px;
+    padding: 12px 20px;
+  }
+  .gaming-library .item ul li h4 {
+    font-size: 12px;
   }
 }
 @media (min-width: 576px){
