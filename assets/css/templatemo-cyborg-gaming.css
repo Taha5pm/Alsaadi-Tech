@@ -1913,6 +1913,6 @@ body {
 }
 @media (min-width: 576px){
   .most-popular .item img{
-    height: 190px;
+    height: auto;
   }
 }
